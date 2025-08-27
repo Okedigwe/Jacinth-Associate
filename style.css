@@ -257,3 +257,199 @@ footer a:hover {
   object-fit: contain;
 }
 
+
+
+/* ====================================
+    Index Social links
+   ==================================== */
+
+/* Footer Social Links */
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: #fff;
+  /* Icon color */
+  font-size: 1.5rem;
+  /* Icon size */
+  margin: 0 10px;
+  /* Space between icons */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  /* Smooth hover effect */
+}
+
+.social-links a:hover {
+  color: #007bff;
+  /* Change color on hover */
+}
+
+
+
+
+
+/* ==============================
+FOOTER SESSION
+==================================*/
+
+.fab.fa-whatsapp {
+    color: #150c3a;
+    /* font-size: 2rem; */
+}
+
+
+.fas.fa-envelope {
+    color: #ffffff;
+    
+} 
+
+.fas.fa-phone-alt {
+    color: #ffffff;
+}
+
+.fab.fa-whatsapp {
+    color: #ffffff;
+}
+
+.fab.fa-linkedin {
+    color: #ffffff;
+}
+
+.fas.fa-envelope:hover {
+    color: #f39c12;
+    
+} 
+
+.fas.fa-phone-alt:hover {
+    color: #f39c12;
+}
+
+.fab.fa-whatsapp:hover {
+    color: #f39c12;
+}
+
+.fab.fa-facebook-f:hover {
+    color: #f39c12;
+}
+
+
+.fab.fa-instagram:hover {
+    color: #f39c12;
+}
+
+.fab.fab.fa-linkedin:hover {
+    color: #f39c12;
+}
+
+.fab.fab.fa-twitter:hover {
+    color: #f39c12;
+}
+
+.fab.fa-youtube:hover {
+    color: #f39c12;
+}
+
+.text-white {
+    color: #fff;
+}
+
+
+
+
+
+
+/* Small screens (phones) */
+@media (max-width: 768px) {
+  nav {
+    display: none; /* hide nav, replace with hamburger */
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .services-grid,
+  .portfolio-grid {
+    grid-template-columns: 1fr; /* stack items */
+  }
+
+  .logo img {
+    height: 20px;
+  }
+}
+
+
+
+
+
+
+
+/* Base Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 5%;
+  background: #111;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navigation links */
+nav {
+  display: flex;
+  gap: 1.2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hamburger hidden by default */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  nav {
+    display: none; /* hidden by default */
+    flex-direction: column;
+    background: #111;
+    position: absolute;
+    top: 60px;
+    right: 5%;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .services-grid,
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .logo img {
+    height: 22px;
+  }
+}
