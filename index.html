@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacinth Associate - Building Housing Structures in Nigeria</title>
@@ -11,25 +9,28 @@
         content="Jacinth Associate is a trusted construction company in Nigeria. We build quality homes, handle renovations, and deliver top-notch project management.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="favicon.png">
-    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
     <!-- Header -->
     <header>
         <div class="logo">
-            <img src="logo.png" alt="Jacinth Associate Logo">
+            <img src="logo.png" alt="Jacinth Associate Logo" />
             <span>Jacinth Associate</span>
-    </div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-</header>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </header>
+
 
     <!-- Hero -->
     <section id="home" class="hero">
@@ -72,10 +73,10 @@
         </div>
     </section>
 
+    <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="section-content">
             <h2>Our Portfolio</h2>
-
             <!-- Filter Menu -->
             <div class="filter-menu">
                 <button class="filter-btn active" data-category="all">All</button>
@@ -83,7 +84,6 @@
                 <button class="filter-btn" data-category="apartments">Apartments</button>
                 <button class="filter-btn" data-category="videos">Videos</button>
             </div>
-
             <!-- Portfolio Grid -->
             <div class="portfolio-grid">
                 <div class="portfolio-item" data-category="homes">
@@ -109,7 +109,8 @@
                 <div class="portfolio-item" data-category="homes">
                     <img src="house6.jpg" alt="Elegant Townhouse">
                     <p>Elegant Townhouse</p>
-                </div>
+                </div> <br>
+                <section> </section>
                 <div class="portfolio-item" data-category="videos">
                     <video src="video1.mp4" controls></video>
                     <p>Ongoing Project Showcase</p>
@@ -134,54 +135,23 @@
         </div>
     </section>
 
-
-
-
-
     <!-- Contact -->
-
-
-
     <main>
         <section id="contact" class="contact">
-            <!-- <section id="contact-form"> -->
             <h2>Get in Touch</h2>
-            <p>
-                Have a project in mind or a question for us? We'd love to hear from
-                you. Please fill out the form below, and we'll get back to you as soon
-                as possible.
-            </p>
-
+            <p>Have a project in mind or a question for us? We'd love to hear from you.<br>
+                Please fill out the form below, and we'll get back to you as soon as possible.</p>
             <form action="https://formspree.io/f/xanbkdez" method="POST" class="contact-form">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required />
-
+                <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required />
-
+                <input type="email" id="email" name="email" required>
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="6" required></textarea>
-
                 <button type="submit" class="cta-button">Send Message</button>
             </form>
         </section>
     </main>
-
-
-
-
-
-    <!-- <section id="contact" class="contact">
-        <div class="section-content">
-            <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section> -->
 
     <!-- Footer -->
     <footer>
@@ -189,27 +159,18 @@
         <p><a href="tel:+2348167712361"><i class="fas fa-phone-alt text-white"></i></a></p>
         <p><a href="mailto:anosobijoe@gmail.com"><i class="fas fa-envelope text-white"></i></a></p>
         <p><a href="https://wa.me/2348034187783" target="_blank"><i class="fab fa-whatsapp text-white"></i></a></p>
-
-
         <div class="social-links">
             <a href="https://web.facebook.com/efitekk" target="_blank"><i class="fab fa-facebook-f text-white"></i></a>
-            <a href=" https://www.linkedin.com/company/efitekk/" target="_blank"><i class="fab fa-linkedin text-white"></i></a>
+            <a href="https://www.linkedin.com/company/efitekk/" target="_blank"><i
+                    class="fab fa-linkedin text-white"></i></a>
             <a href="https://www.youtube.com/@e-fitekk" target="_blank"><i class="fab fa-youtube text-white"></i></a>
             <a href="https://www.instagram.com/e_fitek/" target="_blank"><i class="fab fa-instagram text-white"></i></a>
             <a href="https://x.com/e_fitek" target="_blank"><i class="fab fa-twitter text-white"></i></a>
-
         </div>
         <p class="text-blue">&copy; 2025 Jacinth Associate. All rights reserved.</p>
     </footer>
 
-
-
-<script src="script.js"></script>
-
-
-
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
