@@ -521,3 +521,10 @@ nav a {
 
 
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* Adjust as needed */
+    background-color: #000; /* Example for a black background */
+}
